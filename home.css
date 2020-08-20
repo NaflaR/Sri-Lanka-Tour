@@ -1,0 +1,113 @@
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+    background-size: 45px 45px;
+  }
+
+body {
+    background-image: url(images/bckgrd1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mySlides {
+  display: flex;
+  padding: auto;
+  transition: transform .2s; /*Animation */
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mySlides:hover {
+  transform: scale(2.5); /* 250% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  text-align: left;
+}
+
+.mainNav {
+  position: sticky;
+  top: 0;
+}
+
+.mainNav a {
+  background-repeat: no-repeat;
+  background-size: 40px auto;
+  background-position: .5em center;
+  min-height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.mainNav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mainNav li {
+  flex-grow: 1;
+  width: calc(15% - .2em);
+}
+
+.tourwide {
+  font-family: Poor Richard;
+  text-align: center;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.first {
+  font-family: Papyrus;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.square { 
+  font-family: Cooper Black;
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+}
+.nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+.nav li {
+  flex-grow: 1;
+  width: calc(15% - .2em);
+}
+
+/* Other mobile styles */
+@media screen and (max-width:auto) {
+  .mySlides {
+    width: auto;    
+  }
+  .mySlides:hover {
+    transform: scale(auto);
+  }
+}

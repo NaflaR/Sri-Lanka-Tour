@@ -1,0 +1,85 @@
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+  background-size: 45px 45px;
+}
+
+.mainNav {
+  position: sticky;
+  top: 0;
+}
+
+.mainNav a {
+  background-repeat: no-repeat;
+  background-size: 40px auto;
+  background-position: .5em center;
+  min-height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.mainNav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mainNav li {
+  flex-grow: 1;
+  width: calc(15% - .2em);
+}
+
+body {
+   background-image: url(images/bckgrd5.jfif);
+   background-size: cover;
+  }
+  
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+
+}
+
+input[type=submit] {
+  background-color: #d12d2d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a30e40;
+}
+
+.contactcontainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media screen and (max-width: auto) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

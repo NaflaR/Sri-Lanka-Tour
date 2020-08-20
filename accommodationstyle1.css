@@ -1,0 +1,95 @@
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+  background-size: 45px 45px;
+}
+
+.mainNav {
+  position: sticky;
+  top: 0;
+}
+
+.mainNav a {
+  background-repeat: no-repeat;
+  background-size: 40px auto;
+  background-position: .5em center;
+  min-height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.mainNav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mainNav li {
+  flex-grow: 1;
+  width: calc(15% - .2em);
+}
+
+#p1 {
+         background-color:rgba(255,0,0,0.3);
+         border: 2px solid black;
+         padding: 35px;
+         margin: auto;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 900;
+     }
+#p2 {
+         background-color:rgba(255,0,255,0.3);
+         border: 2px solid black;
+         padding: 35px;
+         margin: auto;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 900;
+     }
+#p3 {
+         background-color:rgba(0,0,255,0.3);
+         border: 2px solid black;
+         padding: 35px;
+         margin: auto;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 900;     
+     }
+    
+
+  body {
+      background-image: url(images/bckgrd3.jfif);
+      background-size: cover;
+      background-blend-mode: lighten;
+  }
+
+.hotel {
+    padding: 10px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.hotel:hover {
+    transform: scale(1.5);
+}
+
+h2 {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+@media screen and (max-width:auto){
+
+}

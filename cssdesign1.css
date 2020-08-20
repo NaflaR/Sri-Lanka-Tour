@@ -1,0 +1,105 @@
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+    background-size: 45px 45px;
+  }
+
+  .mainNav {
+    position: sticky;
+    top: 0;
+  }
+  
+  .mainNav a {
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    background-position: .5em center;
+    min-height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .mainNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .mainNav li {
+    flex-grow: 1;
+    width: calc(15% - .2em);
+  }
+  
+.leftcolumn {
+    float: left;
+    width: 50%;
+}
+
+.image1 {
+    background-color: #aaa;
+    width: auto;
+    padding: 30px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.blogName: after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rightcolumn {
+    float: left;
+    width: 45%;
+    padding-left: 20px;
+}
+
+.block {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+p {
+    font-family: Comic Sans MS;
+}
+
+#para1 {
+    list-style: circle;
+    font-family: Papyrus;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Arial Black;
+}
+
+body {
+    background-image: url(images/bckgrd2.jfif); 
+    background-size: contain;  
+}
+
+h1 {
+    color: white;
+}
+@media screen and (max-width: auto) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}

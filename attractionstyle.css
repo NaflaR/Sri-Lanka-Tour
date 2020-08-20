@@ -1,0 +1,113 @@
+#desttab {
+    width: auto;
+    height: auto;
+    background: red;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: rgba(255,0,0,0.3);}
+    to {background-color: rgba(255,0,0,0.8);}
+  }
+
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+    background-size: 45px 45px;
+  }
+
+  body {
+      background-image: url(images/bckgrd1.jfif);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .mainNav {
+    position: sticky;
+    top: 0;
+  }
+  
+  .mainNav a {
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    background-position: .5em center;
+    min-height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .mainNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .mainNav li {
+    flex-grow: 1;
+    width: calc(15% - .2em);
+  }
+
+#sldesc {
+  font-family: Arial Black;
+  text-align: center;
+}
+
+.desttab {
+  margin: 0 auto;
+  width: auto;
+  border-spacing: 1;
+  border-collapse: collapse;
+  overflow: hidden;
+  position: relative;
+  border-radius: 6px;
+  text-align: center;
+  font-family: Comic Sans MS ;
+  font-weight: bold;
+  font-size: medium;
+}
+
+th {
+  height: 60px;
+  background: whitesmoke;
+  font-size: larger;
+}
+
+#one {
+  font-weight: bolder;
+  font-family: Arial;
+  font-size: large;
+}
+#two1 {
+  display: flex;
+  padding: auto;
+  transition: transform .2s; 
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+#two1:hover {
+  transform: scale(2.5);
+}
+#three {
+  font-family: Bahnschrift SemiCondensed;
+  font-size: large;
+}
+
+
+@media screen and (max-width: auto) {
+  .desttab{
+    display: block;
+  }
+
+}
